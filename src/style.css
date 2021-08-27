@@ -11,7 +11,7 @@ html {
     rgba(0, 0, 0, 0.863)
   );
 
-  --imp-text-color: #273cb1;
+  --text-color: #273cb1;
 }
 
 .blue {
@@ -150,4 +150,19 @@ html {
   color: #19109e;
   box-shadow: 0 0 5px #0401cf;
   text-shadow: 0 0 2px #0401cf;
+}
+
+.tech-icons {
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(28, 47, 218, 0.521) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(17, 59, 148, 0.637) !important;
 }
