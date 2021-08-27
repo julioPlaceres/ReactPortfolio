@@ -69,11 +69,11 @@ function Home() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="social">
+          <Col md={12} className="home-about-social">
             <p>
               Feel free to <span className="blue">connect </span>with me
             </p>
-            <ul className="social-links">
+            <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/julioPlaceres"
@@ -89,7 +89,7 @@ function Home() {
                   href="linkedin.com/in/julio-placeres-731280a7/"
                   target="_blank"
                   rel="noreferrer"
-                  className="social-icons icon-colour"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
