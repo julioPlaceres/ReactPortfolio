@@ -3,11 +3,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import selfie from "../../Assets/selfie.jpg";
 
 function Home() {
   return (
     <section>
-      <Container fluid id="home">
+      <Container fluid>
         <Container className="home">
           <Row>
           <Col md={6} className="homeHeader">
@@ -19,9 +20,9 @@ function Home() {
                 I'M
                 <strong className="main-name"> Julio Placeres</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-              </div>
+            </Col>
+            <Col md={6} className="homeHeader">
+            <img src={selfie} alt="about" className="img-fluid" />
             </Col>
           </Row>
           <Row>

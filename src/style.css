@@ -24,6 +24,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+  background-image: var(--background-color) !important;
   color: white !important;
 }
 
@@ -183,6 +184,10 @@ html {
 }
 
 @media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
+  
   .footer-body {
     text-align: center !important;
   }
