@@ -25,10 +25,6 @@ function About() {
         <h1 className="project">
           Professional <strong className="blue">Skills </strong>
         </h1>
-
-        <h1 className="project">
-          <strong className="blue">Tools</strong>
-        </h1>
         <Tech />
       </Container>
     </Container>
