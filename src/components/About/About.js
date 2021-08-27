@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from "./AboutCard";
+import Tech from "./Tech";
 
 function About() {
   return (
@@ -28,6 +29,7 @@ function About() {
         <h1 className="project">
           <strong className="blue">Tools</strong>
         </h1>
+        <Tech />
       </Container>
     </Container>
   );
