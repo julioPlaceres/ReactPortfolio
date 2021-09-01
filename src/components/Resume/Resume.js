@@ -19,7 +19,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Computer Programmer"
+              title="Software Engineer"
               date="January 2017 - Present"
               content={[
                 "Developed tracking systems to record issues on the manufacturing floor." +

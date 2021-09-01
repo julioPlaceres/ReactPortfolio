@@ -11,7 +11,7 @@ html {
     rgba(0, 0, 0, 0.863)
   );
 
-  --text-color: #273cb1;
+  --text-color: #2f3cf5;
 }
 
 .blue {
@@ -48,7 +48,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #170ad4 !important;
+  color: #2f3cf5 !important;
 }
 
 /* Home  */
@@ -124,7 +124,7 @@ html {
 }
 
 .icon-colour {
-  color: #1809f0 !important;
+  color: #2f3cf5 !important;
 }
 
 .home-social-icons::before {
@@ -135,7 +135,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #1c1483;
+  background: #2f3cf5;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -143,11 +143,11 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #1215bb;
+  box-shadow: 0 0 15px #2f3cf5;
 }
 
 .home-social-icons:hover {
-  color: #19109e;
+  color: #2f3cf5;
   box-shadow: 0 0 5px #0401cf;
   text-shadow: 0 0 2px #0401cf;
 }

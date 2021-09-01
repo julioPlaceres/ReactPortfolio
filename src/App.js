@@ -36,10 +36,10 @@ function App() {
         <ScrollToTop />
         {/* Switch for all different routes on the page */}
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/project" component={Projects} />
-          <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/ReactPortfolio" exact component={Home} />
+          <Route path="/ReactPortfolio/project" component={Projects} />
+          <Route path="/ReactPortfolio/about" component={About} />
+          <Route path="/ReactPortfolio/resume" component={Resume} />
         </Switch>
         <Footer />
       </div>
