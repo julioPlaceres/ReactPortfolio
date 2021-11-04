@@ -28,25 +28,20 @@ function Home() {
           <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME TELL YOU <span className="blue"> A LITTLE ABOUT MYSELF</span>
+              <span className="blue"> ABOUT ME</span>
             </h1>
             <p className="home-about-body">
-              Ever since young I have loved programming, but back in my home country
-              I never got a chance to have a PC, but that didn't stop me from learning 
-              as much as possible, and then onced I moved to the United states I was finally
-              able to start my education and since 2012 I started my never ending journey as 
-              a programmer
+            Looking forward to earning the position of Software Engineer at a leading organization to showcase
+            my skills in programming to generate high-end solutions to general software issues along with a better
+            user experience.
               <br />
               <br />Some of my experience include, but it's not limited to:
               <i>
-                <b className="blue"> Javascript, MySql, MongoDB, HTML, CSS, C# and LabVIEW. </b>
+                <b className="blue"> HTML5, CSS, JQuery, Javascript, bootstrap, WPF, LabVIEW, MySql, MongoDB, Express, ReactJS, Node, Handlebars, AWS, Webpack, C#. </b>
               </i>
               <br />
               <br />
-              My passion has always been &nbsp;
               <i>
-                <b className="blue"> Game development </b> where in the future 
-                I have plans after getting enough experience to create my own company.
                 I have also worked in muliple projects around the electronics manufacturing doing {" "}
                 <b className="blue">
                   Process Improvements, SPC suites, 5S and Lean Six sigma projects
@@ -54,18 +49,6 @@ function Home() {
               </i>
               <br />
               <br />
-              I love doing web development
-              with <b className="blue">Node.js</b> and
-              <i>
-                <b className="blue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="blue"> React.js and Express.js</b>
-              </i>
             </p>
           </Col>
         </Row>
