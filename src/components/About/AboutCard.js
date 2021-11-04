@@ -9,9 +9,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="blue">Julio Placeres </span>
-            from <span className="blue"> Havana, Cuba </span> and based in <span className="blue">Orlando, Florida</span>
-            <br />I am a junior software developer interested in web and game development
+            I was born and raised in <span className="blue"> Havana, Cuba </span> 
+            now based in <span className="blue">Orlando, Florida</span> 
+            <br />I am a junior software developer
             <br />
             <br />
             Aside from coding some of the activities I love the most are:
