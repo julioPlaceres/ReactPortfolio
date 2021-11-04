@@ -11,7 +11,7 @@ function Home() {
       <Container fluid>
         <Container className="home">
           <Row>
-          <Col md={6} className="homeHeader">
+            <Col md={6} className="homeHeader">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello!
               </h1>
@@ -20,67 +20,77 @@ function Home() {
                 I'M
                 <strong className="main-name"> Julio Placeres</strong>
               </h1>
+
+              <br></br>
+              <br></br>
+
+              Julio A Placeres
+              <p>Software Engineer</p>
+              <p>Orlando, Florida</p>
+              <p>Mobile: (315) 878-4223</p>
+              <p>Email: jplaceresvaldes@outlook.com</p>
+
             </Col>
             <Col md={6} className="homeHeader">
-            <img src={selfie} alt="about" className="img-fluid" />
+              <img src={selfie} alt="about" className="img-fluid" />
             </Col>
           </Row>
           <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              <span className="blue"> ABOUT ME</span>
-            </h1>
-            <p className="home-about-body">
-            Looking forward to earning the position of Software Engineer at a leading organization to showcase
-            my skills in programming to generate high-end solutions to general software issues along with a better
-            user experience.
-              <br />
-              <br />Some of my experience include, but it's not limited to:
-              <i>
-                <b className="blue"> HTML5, CSS, JQuery, Javascript, bootstrap, WPF, LabVIEW, MySql, MongoDB, Express, ReactJS, Node, Handlebars, AWS, Webpack, C#. </b>
-              </i>
-              <br />
-              <br />
-              <i>
-                I have also worked in muliple projects around the electronics manufacturing doing {" "}
-                <b className="blue">
-                  Process Improvements, SPC suites, 5S and Lean Six sigma projects
-                </b>
-              </i>
-              <br />
-              <br />
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <p>
-              Feel free to <span className="blue">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/julioPlaceres"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://linkedin.com/in/julio-placeres-731280a7"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+            <Col md={8} className="home-about-description">
+              <h1 style={{ fontSize: "2.6em" }}>
+                <span className="blue"> ABOUT ME</span>
+              </h1>
+              <p className="home-about-body">
+                Looking forward to earning the position of Software Engineer at a leading organization to showcase
+                my skills in programming to generate high-end solutions to general software issues along with a better
+                user experience.
+                <br />
+                <br />Some of my experience include, but it's not limited to:
+                <i>
+                  <b className="blue"> HTML5, CSS, JQuery, Javascript, bootstrap, WPF, LabVIEW, MySql, MongoDB, Express, ReactJS, Node, Handlebars, AWS, Webpack, C#. </b>
+                </i>
+                <br />
+                <br />
+                <i>
+                  I have also worked in muliple projects around the electronics manufacturing doing {" "}
+                  <b className="blue">
+                    Process Improvements, SPC suites, 5S and Lean Six sigma projects
+                  </b>
+                </i>
+                <br />
+                <br />
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12} className="home-about-social">
+              <p>
+                Feel free to <span className="blue">connect </span>with me
+              </p>
+              <ul className="home-about-social-links">
+                <li className="social-icons">
+                  <a
+                    href="https://github.com/julioPlaceres"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://linkedin.com/in/julio-placeres-731280a7"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                </li>
+              </ul>
+            </Col>
+          </Row>
         </Container>
       </Container>
     </section>
