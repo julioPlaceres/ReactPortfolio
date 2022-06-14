@@ -19,27 +19,38 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer"
-              date="January 2017 - September 2021"
+              title="Quality Engineer [Sandford, Florida]"
+              date="November 2021 - Present"
               content={[
-                "● Developed SPC Suite that contributed to reducing the number of defects. Dashboards were placed " +
-                "around the company in order to monitor and track production overall performance." +
-                "● Developed an application to track the current of components by using Labview displaying the " +
-                "information live to the reliability engineers." +
-                "● Provided Support by expanding the ERP functionality, by creating a module for signing in and out " +
-                "products in the wherehouse, which saved employer time, and reduced data entry defects." +
-                "● Developed an application for auditing, which allowed auditors and management to act accordingly in a " +
-                "timely manner to arising issues.",
+                "● Contributing to develop company’s ERP system by expanding and improving the current functionality, " +
+                  "fixing bugs and participate in code reviews." +
+                  "● Validate new computer systems as well as re-validate current systems. " +
+                  "● Provide IT support where needed. " +
+                  "● Back up periodically all systems within the company. ",
               ]}
             />
             <Resumecontent
-              title="Quality Auditor and Metrologist"
+              title="Software Engineer [Syracuse, New York]"
+              date="January 2017 - September 2021"
+              content={[
+                "● Developed SPC Suite that contributed to reducing the number of defects. Dashboards were placed " +
+                  "around the company in order to monitor and track production overall performance." +
+                  "● Developed an application to track the current of components by using Labview displaying the " +
+                  "information live to the reliability engineers." +
+                  "● Provided Support by expanding the ERP functionality, by creating a module for signing in and out " +
+                  "products in the wherehouse, which saved employer time, and reduced data entry defects." +
+                  "● Developed an application for auditing, which allowed auditors and management to act accordingly in a " +
+                  "timely manner to arising issues.",
+              ]}
+            />
+            <Resumecontent
+              title="Quality Auditor and Metrologist [Syracuse, New York]"
               content={[
                 "● Created and maintained CNC programs, performing FPI for a variety of components and processes." +
-                "● Performed Finish good products audits and Line audits to ensure quality of products as well as enforcing " +
-                "standards operating procedures and safety." +
-                "● Contributed to achieve and maintain ISO 9001:2008, ISO 9001:2015 as well as ISO14001 as one of the " +
-                "lead auditors.",
+                  "● Performed Finish good products audits and Line audits to ensure quality of products as well as enforcing " +
+                  "standards operating procedures and safety." +
+                  "● Contributed to achieve and maintain ISO 9001:2008, ISO 9001:2015 as well as ISO14001 as one of the " +
+                  "lead auditors.",
               ]}
             />
           </Col>
@@ -59,7 +70,8 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />&nbsp;Download CV
+            <AiOutlineDownload />
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>
