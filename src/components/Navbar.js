@@ -45,15 +45,14 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/ReactPortfolio" onClick={() => updateExpanded(false)}>
+              <Nav.Link href="/home" onClick={() => updateExpanded(false)}>
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/ReactPortfolio/about"
+                href="/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
@@ -62,8 +61,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/ReactPortfolio/project"
+                href="/project"
                 onClick={() => updateExpanded(false)}
               >
                 <VscProject
@@ -75,8 +73,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/ReactPortfolio/resume"
+                href="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
