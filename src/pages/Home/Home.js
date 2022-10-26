@@ -11,6 +11,7 @@ function Home() {
       <Container fluid className="home">
         <Row>
           <Col>
+          {/* Move this Welcome to Logo on the Navbar */}
             <h1>
               Wel<strong className="blue">come</strong>
             </h1>
@@ -21,7 +22,7 @@ function Home() {
             <p>Email: jplaceresvaldes@outlook.com</p>
           </Col>
           <Col>
-            <img src={selfie} alt="Portrait" />
+            <img width={300} src={selfie} alt="Portrait" />
           </Col>
         </Row>
         <Row>
