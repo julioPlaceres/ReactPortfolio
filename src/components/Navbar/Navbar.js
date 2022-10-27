@@ -32,14 +32,17 @@ function NavBar() {
       <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => { updateExpanded(expand ? false : "expanded"); }}>
+          onClick={() => {
+            updateExpanded(expand ? false : "expanded");
+          }}
+        >
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
 
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto" defaultActiveKey="#home">
+        <Navbar.Collapse>
+          <Nav defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link href="/" onClick={() => updateExpanded(false)}>
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
@@ -47,31 +50,19 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <VscProject
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+              <Nav.Link href="/project" onClick={() => updateExpanded(false)}>
+                <VscProject style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/resume" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
