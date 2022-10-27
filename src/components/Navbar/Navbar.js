@@ -30,6 +30,11 @@ function NavBar() {
       className={navColour ? "stick" : "navbar"}
     >
       <Container>
+        <Navbar.Brand href="/">
+          <h1>
+            Wel<strong className="blue">come</strong>
+          </h1>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -73,5 +78,4 @@ function NavBar() {
   );
 }
 
-// Expor Navbar Module
 export default NavBar;

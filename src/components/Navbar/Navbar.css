@@ -91,3 +91,7 @@
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
   }
+
+  .navbar h1{
+    color: white;
+  }

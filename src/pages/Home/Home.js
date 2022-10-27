@@ -10,11 +10,7 @@ function Home() {
     <>
       <Container fluid className="home">
         <Row>
-          <Col>
-          {/* Move this Welcome to Logo on the Navbar */}
-            <h1>
-              Wel<strong className="blue">come</strong>
-            </h1>
+          <Col className="home-contact-col">
             <p>Julio A Placeres</p>
             <p>Software Engineer</p>
             <p>Orlando, Florida</p>
@@ -27,7 +23,7 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <h1>ABOUT ME</h1>
+            <h1 className="home-about-title">ABOUT ME</h1>
             <p>
               Software Engineer, self-taught, entrepreneur, always striving to
               work towards continuous improvement. Initially a QA in the
@@ -39,19 +35,23 @@ function Home() {
               options.
             </p>
             <p>
-              Some of my experience includes, but it's not limited to <span className="blue">HTML5,
-              CSS, JQuery, Javascript, bootstrap, WPF, LabVIEW, MySql, MongoDB,
-              Express, ReactJS, Node, Handlebars, AWS, Webpack, C#.</span>
+              Some of my experience includes, but it's not limited to{" "}
+              <span className="blue">
+                HTML5, CSS, JQuery, Javascript, bootstrap, WPF, LabVIEW, MySql,
+                MongoDB, Express, ReactJS, Node, Handlebars, AWS, Webpack, C#.
+              </span>
             </p>
           </Col>
         </Row>
 
         <Row>
           <Col>
-            <p> Feel free to <span className="blue">connect </span>with me</p>
+            <p>
+              Feel free to <span className="blue">connect </span>with me
+            </p>
 
-            <ul style={{listStyle: 'none', display: 'flex'}}>
-              <li style={{paddingRight: '20px'}}>
+            <ul className="home-ul-social">
+              <li>
                 <a
                   href="https://github.com/julioPlaceres"
                   target="_blank"
