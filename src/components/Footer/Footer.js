@@ -1,37 +1,36 @@
-// Import required Files
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./Footer.css";
 
 function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        {/* Project Name */}
-        <Col md="4" className="footer2">
+        <Col>
           <h3>Julio A Placeres</h3>
         </Col>
-        {/* Social Icons */}
-        <Col md="4" className="footer-body">
+        <Col>
           <ul className="footer-icons">
-            <li className="social-icons">
+            <li>
               <a
                 href="https://github.com/julioPlaceres"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                Github <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
                 href="https://www.linkedin.com/in/julio-placeres-731280a7/"
-                style={{ color: "white" }}
-                target="_blank" 
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
                 rel="noopener noreferrer"
               >
+                Linkedin {"  "}
                 <FaLinkedinIn />
               </a>
             </li>
@@ -42,5 +41,4 @@ function Footer() {
   );
 }
 
-// Export Module
 export default Footer;

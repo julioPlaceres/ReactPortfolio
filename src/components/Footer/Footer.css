@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+
+  .footer h3 {
+    font-size: 1em;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-icons {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0;
+    list-style: none;
+  }
