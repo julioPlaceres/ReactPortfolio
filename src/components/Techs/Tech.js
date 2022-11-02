@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1, DiReact, DiNodejs,
+  DiJavascript1, DiReact,
   DiMongodb, DiGit, DiMysql, DiHtml5
 } from "react-icons/di";
 import {
   SiCsharp, SiHeroku, SiLabview,
   SiVisualstudiocode, SiCss3,
-  SiJquery, SiBootstrap, SiWebpack
+  SiJquery, SiBootstrap,
 } from "react-icons/si";
 import {
   FaWpforms, FaNodeJs, FaAws
@@ -23,10 +23,8 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"> <h6> bootstrap</h6> <SiBootstrap /> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> Javascript</h6> <DiJavascript1 /> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> NodeJS</h6> <FaNodeJs/> </Col>
-      <Col xs={4} md={2} className="tech-icons"> <h6> Webpack</h6> <SiWebpack/> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> AWS</h6> <FaAws/> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> WinForms</h6> <FaWpforms /> </Col>
-      <Col xs={4} md={2} className="tech-icons"> <h6> NodeJS</h6> <DiNodejs /> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> React</h6> <DiReact /> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> MongoDb</h6> <DiMongodb /> </Col>
       <Col xs={4} md={2} className="tech-icons"> <h6> Git</h6> <DiGit /> </Col>

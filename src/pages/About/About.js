@@ -1,5 +1,6 @@
 import Tech from "../../components/Techs/Tech";
 import aboutImg from "../../Assets/about-img.jpg";
+import Mfg from "../../components/Techs/MfgSkills";
 import Aboutcard from "../../components/Cards/AboutCard";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
@@ -21,9 +22,14 @@ function About() {
         </Row>
 
         <h1 style={{color: "white"}}>
-          Professional <strong className="blue">Skills </strong>
+          Software <strong className="blue"> Knoweldge</strong>
         </h1>
         <Tech />
+
+        <h1 style={{color: "white"}}>
+          Manufacturing<strong className="blue"> Knoweldge</strong>
+        </h1>
+        <Mfg />
     </Container>
   );
 }
