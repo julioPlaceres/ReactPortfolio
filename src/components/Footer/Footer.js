@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col>
-          <h3>Julio A Placeres</h3>
+          <h3>Created by: Julio A Placeres</h3>
         </Col>
         <Col>
           <ul className="footer-icons">

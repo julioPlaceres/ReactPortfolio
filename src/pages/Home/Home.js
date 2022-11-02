@@ -23,7 +23,7 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <h1 className="home-about-title">ABOUT ME</h1>
+            <h1 className="home-about-title"><span className="blue">ABOUT </span>ME</h1>
             <p>
               Software Engineer, self-taught, entrepreneur, always striving to
               work towards continuous improvement. Initially a QA in the

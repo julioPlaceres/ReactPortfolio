@@ -1,5 +1,5 @@
 .home {
-    font-size: 5vw;
+    font-size: 1rem;
     color: whitesmoke;
   }
 
@@ -7,11 +7,6 @@
     margin-top: 25px;
     line-height: 0.5em;
   }
-
-  /* .home-about-title:hover{
-    text-decoration:underline 0.2em;
-    text-decoration-color: blue;
-  } */
   
   .home-ul-social{
     list-style: none;
@@ -59,3 +54,16 @@
     box-shadow: 0 0 5px blue;
     text-shadow: 0 0 2px blue;
   }
+
+  /* Sizing up */
+@media only screen and (min-width: 768px) {
+  .home {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .home-contact-col{
+    line-height: 1rem;
+    margin-bottom: 100px;
+  }
+}
