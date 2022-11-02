@@ -16,18 +16,18 @@ import "./Tech.css";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> HTML5</p> <DiHtml5 className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> CSS3</p> <SiCss3 className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> JQuery</p> <SiJquery className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> Javascript</p> <DiJavascript1 className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> NodeJS</p> <FaNodeJs className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> AWS</p> <FaAws className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> React</p> <DiReact className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> MongoDb</p> <DiMongodb className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> MySQL</p> <DiMysql className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> C#</p> <SiCsharp className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> LabVIEW</p> <SiLabview className="tech-icons"/> </Col>
-      <Col xs={3} sm={3} md={2} lg={1} className="tech-icons-col"> <p> Rust</p> <DiRust className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> HTML5</p> <DiHtml5 className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> CSS3</p> <SiCss3 className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> JQuery</p> <SiJquery className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> Javascript</p> <DiJavascript1 className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> NodeJS</p> <FaNodeJs className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> AWS</p> <FaAws className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> React</p> <DiReact className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> MongoDb</p> <DiMongodb className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> MySQL</p> <DiMysql className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> C#</p> <SiCsharp className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> LabVIEW</p> <SiLabview className="tech-icons"/> </Col>
+      <Col xs={3} md={2} className="tech-icons-col"> <p> Rust</p> <DiRust className="tech-icons"/> </Col>
     </Row>
   );
 }

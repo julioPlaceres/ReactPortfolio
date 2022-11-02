@@ -11,11 +11,11 @@
       rgba(0, 0, 0, 0.863)
     );
   
-    --text-color: #2f3cf5;
+    --text-color: #0f17ff;
 
     --backgr: linear-gradient(red, orange, yellow, blue);
   }
   
   .blue {
-    color: var(--text-color) !important;
+    color: var(--text-color);
   }

@@ -6,7 +6,7 @@
   min-height: 10vw;
   margin: 10px;
   padding: 5px;
-  border: 1.7px solid rgba(17, 59, 148, 0.637);
+  border: 1.7px solid var(--text-color);
   color: white;
 }
 
