@@ -1,9 +1,25 @@
+.mfg-icons-col {
+  text-align: center;
+  box-shadow: 4px 5px 4px 3px rgba(28, 47, 218, 0.521);
+  font-size: 0.9rem;
+  min-width: 10vw;
+  min-height: 10vw;
+  margin: 10px;
+  padding: 5px;
+  border: 1.7px solid rgba(17, 59, 148, 0.637);
+  color: white;
+}
+
 .mfg-icons {
-    text-align: center;
-    box-shadow: 4px 5px 4px 3px rgba(28, 47, 218, 0.521);
-    font-size: 4.5em;
-    margin: 15px;
-    padding: 10px;
-    border: 1.7px solid rgba(17, 59, 148, 0.637);
-    color: white;
+  font-size: 2rem;
+}
+
+/* Sizing up */
+@media only screen and (min-width: 576px) {
+  .mfg-icons-col {
+    font-size: 1.3rem;
   }
+  .mfg-icons {
+    font-size: 3rem;
+  }
+}

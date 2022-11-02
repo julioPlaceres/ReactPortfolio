@@ -2,29 +2,30 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ImSigma } from "react-icons/im";
 import { GiHighFive } from "react-icons/gi";
-import { FcStatistics } from "react-icons/fc";
+import { HiDesktopComputer } from "react-icons/hi";
 import { AiOutlineAudit, AiOutlineAreaChart } from "react-icons/ai";
 import { SiAdobeaudition } from "react-icons/si";
 import { GoCircuitBoard } from "react-icons/go"
 import { GiCircuitry } from "react-icons/gi";
-import { FcInspection, FcProcess } from "react-icons/fc";
+import { FcStatistics, FcInspection, FcProcess } from "react-icons/fc";
 import { TbDimensions } from "react-icons/tb";
 import "./MfgSkills.css";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Lean Six Sigma</h6> <ImSigma /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>5S </h6> <GiHighFive /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Finish Goods Inspection</h6> <AiOutlineAudit /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>SPC</h6> <AiOutlineAreaChart /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Line Audits</h6> <SiAdobeaudition /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>RohS, Reach, Prop65, 3TG</h6> <FcStatistics/> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>AOI Inspection</h6> <GoCircuitBoard/> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>SMT Inspection</h6> <GiCircuitry/> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Incoming Inspection</h6> <FcInspection /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Process Improvement</h6> <FcProcess /> </Col>
-        <Col xs={4} md={2} className="mfg-icons"> <h6>Metrologist</h6> <TbDimensions /> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Lean Six Sigma</p> <ImSigma className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>5S </p> <GiHighFive className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Finish Goods Inspection</p> <AiOutlineAudit className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>SPC</p> <AiOutlineAreaChart className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Line Audits</p> <SiAdobeaudition className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>RohS, Reach, Prop65, 3TG</p> <FcStatistics className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>AOI Inspection</p> <GoCircuitBoard className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>SMT Inspection</p> <GiCircuitry className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Incoming Inspection</p> <FcInspection className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Process Improvement</p> <FcProcess className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>Metrologist</p> <TbDimensions className="mfg-icons"/> </Col>
+        <Col xs={3} sm={3} className="mfg-icons-col"> <p>ERPs</p> <HiDesktopComputer className="mfg-icons"/> </Col>
     </Row>
   );
 }

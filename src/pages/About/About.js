@@ -9,27 +9,32 @@ import "./About.css";
 function About() {
   return (
     <Container fluid>
-        <Row>
-          <Col>
-            <h1 style={{ color: "white" }}>
-              About <strong className="blue">me</strong>
-            </h1>
-            <Aboutcard />
-          </Col>
-          <Col>
-            <img src={aboutImg} alt="about" className="img-fluid" />
-          </Col>
-        </Row>
+      <Row>
+        <Col xs={12} md={6}>
+          <img src={aboutImg} alt="about" className="img-fluid" />
+        </Col>
+        <Col xs={12} md={6}>
+          <h1 style={{ color: "white" }}>
+            About <strong className="blue">me</strong>
+          </h1>
+          <Aboutcard />
+        </Col>
+      </Row>
 
-        <h1 style={{color: "white"}}>
+      <Row>
+        <Col lg={6} style={{textAlign: 'center'}}>
+        <h1 style={{ color: "white" }}>
           Software <strong className="blue"> Knoweldge</strong>
         </h1>
         <Tech />
-
-        <h1 style={{color: "white"}}>
+        </Col>
+        <Col lg={6}>
+        <h1 style={{ color: "white" }}>
           Manufacturing<strong className="blue"> Knoweldge</strong>
         </h1>
         <Mfg />
+        </Col>
+      </Row>
     </Container>
   );
 }
