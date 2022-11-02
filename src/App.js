@@ -23,5 +23,4 @@ function App() {
   );
 }
 
-// Export App Module
 export default App;

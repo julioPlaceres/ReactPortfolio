@@ -1,4 +1,3 @@
-// Import Files Required
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
@@ -13,6 +12,7 @@ import {
 import {
   FaWpforms, FaNodeJs, FaAws
 } from "react-icons/fa";
+import "./Tech.css";
 
 function Techstack() {
   return (

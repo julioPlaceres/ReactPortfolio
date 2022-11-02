@@ -1,0 +1,15 @@
+.tech-icons {
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    display: table;
+    box-shadow: 4px 5px 4px 3px rgba(28, 47, 218, 0.521);
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+    font-size: 4.5em;
+    margin: 15px;
+    padding: 10px;
+    opacity: 0.93;
+    border: 1.7px solid rgba(17, 59, 148, 0.637);
+    color: white;
+  }
