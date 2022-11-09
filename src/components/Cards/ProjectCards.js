@@ -1,23 +1,24 @@
-// Import Required Files
-import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
+import "./ProjectCards.css";
 
 function ProjectCards(props) {
   return (
     <Card className="card-view">
-      {/* Image */}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        {/* Title */}
+      <Card.Body className="d-flex flex-column">
         <Card.Title>{props.title}</Card.Title>
-        {/* Description */}
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        {/* Link */}
-        <Button variant="primary" href={props.link} target="_blank">
+        <Button
+          className="mt-auto"
+          variant="primary"
+          href={props.link}
+          target="_blank"
+        >
           <BiLinkExternal /> &nbsp;
           {"View Project"}
         </Button>

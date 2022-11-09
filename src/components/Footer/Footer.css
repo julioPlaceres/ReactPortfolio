@@ -1,11 +1,15 @@
-.footer {
+#footer{
+  height: 100px;
+}
+
+.footer-container {
   display: flex;
   flex-direction: column;
   background-color: black;
   text-align: center;
 }
 
-  .footer h3 {
+  .footer-container h3 {
     font-size: 1em;
     color: white;
     margin-top: 0.5em;

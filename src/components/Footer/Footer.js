@@ -6,7 +6,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <Container fluid className="footer">
+    <Container fluid id="footer" className="footer-container">
       <Row>
         <Col>
           <h3>Created by: Julio A Placeres</h3>

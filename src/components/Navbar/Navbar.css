@@ -1,3 +1,7 @@
+#header{
+  height: 100px;
+}
+
 .stick {
     background-color: transparent;
     transition: all 0.3s ease-out 0s;

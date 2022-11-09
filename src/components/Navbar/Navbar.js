@@ -24,6 +24,7 @@ function NavBar() {
 
   return (
     <Navbar
+      id="header"
       expanded={expand}
       fixed="top"
       expand="md"
