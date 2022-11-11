@@ -1,80 +1,86 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/Placeres_Resume.pdf";
+import Resumecontent from "../../components/ResumeContent/ResumeContent";
+import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import "./Resume.css";
 
 function Resume() {
   return (
     <Container fluid className="resume-section-main">
-      <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-        <Row className="resume">
-          <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
-            <Resumecontent
-              title="Quality Engineer [Sandford, Florida]"
-              date="November 2021 - Present"
-              content={[
-                "● Contributing to develop company’s ERP system by expanding and improving the current functionality, " +
-                  "fixing bugs and participate in code reviews." +
-                  "● Validate new computer systems as well as re-validate current systems. " +
-                  "● Provide IT support where needed. " +
-                  "● Back up periodically all systems within the company. ",
-              ]}
-            />
-            <Resumecontent
-              title="Software Engineer [Syracuse, New York]"
-              date="January 2017 - September 2021"
-              content={[
-                "● Developed SPC Suite that contributed to reducing the number of defects. Dashboards were placed " +
-                  "around the company in order to monitor and track production overall performance." +
-                  "● Developed an application to track the current of components by using Labview displaying the " +
-                  "information live to the reliability engineers." +
-                  "● Provided Support by expanding the ERP functionality, by creating a module for signing in and out " +
-                  "products in the wherehouse, which saved employer time, and reduced data entry defects." +
-                  "● Developed an application for auditing, which allowed auditors and management to act accordingly in a " +
-                  "timely manner to arising issues.",
-              ]}
-            />
-            <Resumecontent
-              title="Quality Auditor and Metrologist [Syracuse, New York]"
-              content={[
-                "● Created and maintained CNC programs, performing FPI for a variety of components and processes." +
-                  "● Performed Finish good products audits and Line audits to ensure quality of products as well as enforcing " +
-                  "standards operating procedures and safety." +
-                  "● Contributed to achieve and maintain ISO 9001:2008, ISO 9001:2015 as well as ISO14001 as one of the " +
-                  "lead auditors.",
-              ]}
-            />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="Process Control Engineering [Havana, Cuba]"
-              date="September 2008 - June 2012"
-              content={["Process control Engineering Major"]}
-            />
-            <Resumecontent
-              title="UCF [Orlando, Florida]"
-              date="June 14, 2021 - September 07, 2021"
-              content={["Full Stack Web development"]}
-            />
-          </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-      </Container>
+      <Row className="justify-content-center">
+        <Button
+          style={{ minWidth: "200px" }}
+          className="w-25"
+          variant="primary"
+          href={pdf}
+          target="_blank"
+        >
+          <AiOutlineDownload />
+          &nbsp;Download CV
+        </Button>
+      </Row>
+      <Row className="resume">
+        <Col md={6} className="resume-left">
+          <h3 className="resume-title">Experience</h3>
+          <Resumecontent
+            title="Chief Executive Officer [Orlando, Florida]"
+            date="October 2021 - Present"
+            content={[
+              "Managing team of experience designer and developers and creating compelling websites, PWAs, Desktop Applications.",
+              "Developing SPC Software's for sell and distribution.",
+            ]}
+          />
+          <Resumecontent
+            title="Quality Engineer [Sandford, Florida]"
+            date="November 2021 - July 2022"
+            content={[
+              "Contributed to develop company’s ERP system by expanding and improving the current functionality.",
+              "Validated new and current systems, by doing regression and integration testing, verifying the software" +
+                "meets all specifications and conforms to the user needs, enforcing all FDA industry standards and creating/updating SOPs.",
+              "Provided IT support where needed (Managing systems, antiviruses, networks, personnel access).",
+              "Backed up periodically all systems within the company.",
+            ]}
+          />
+          <Resumecontent
+            title="Quality Engineer [Syracuse, New York]"
+            date="January 2017 - September 2021"
+            content={[
+              "Developed multiple SPC applications using Visual Studio (C#), Labview, among other technologies" +
+                "that contributed to reducing the number of defects by collecting data from various processes and" +
+                "displaying it on dashboards to monitor and track production overall performance.",
+              "Provided Support to the IT department by expanding the ERP functionality [Epicor]",
+              "Managed the qualification process of suppliers who were in Compliance with Reach, RoHS, and 3TG.",
+              "Lead and participated in multiple Lean Six Sigma projects to increase productivity and reduce cost of production.",
+            ]}
+          />
+        </Col>
+        <Col md={6} className="resume-right">
+          <h3 className="resume-title">Education</h3>
+          <Resumecontent
+            title="Full Stack Web Development - University of Central Florida [Orlando, Florida]"
+            date="June 2021 - September 2021"
+            content={["Full Stack Web development - Bootcamp"]}
+          />
+          <Resumecontent
+            title="Process Control Engineering - Hermanos Gomez [Havana, Cuba]"
+            date="September 2008 - June 2012"
+            content={["Process Control - Bachelor Degree"]}
+          />
+        </Col>
+      </Row>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Button
+          style={{ minWidth: "200px" }}
+          className="w-25"
+          variant="primary"
+          href={pdf}
+          target="_blank"
+        >
+          <AiOutlineDownload />
+          &nbsp;Download CV
+        </Button>
+      </Row>
     </Container>
   );
 }

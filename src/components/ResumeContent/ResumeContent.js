@@ -1,12 +1,9 @@
-// Import Require Files
-import React from "react";
+import "./ResumeContent.css";
 
 function ResumeContent(props) {
   return (
     <div className="resume-item">
-      <h5 className={props.title ? "resume-title" : "resume-no-title"}>
-        {props.title}
-      </h5>
+      <h5 className="resume-title">{props.title}</h5>
       <p>
         <em>{props.date}</em>
       </p>
@@ -18,5 +15,5 @@ function ResumeContent(props) {
     </div>
   );
 }
-// Export Module
+
 export default ResumeContent;

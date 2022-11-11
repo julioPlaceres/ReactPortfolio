@@ -1,0 +1,34 @@
+.resume-item {
+    padding: 0 0 10px 25px;
+    border-left: 2px solid var(--text-color);
+  }
+
+.resume-title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .resume-item .resume-title {
+    font-size: 0.9rem;
+    background: var(--text-color);
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+    text-align: justify;
+  }
+  
+  li {
+    padding-bottom: 10px;
+    list-style: none;
+  }
+  
+  .resume-item:last-child {
+    padding-bottom: 0;
+  }

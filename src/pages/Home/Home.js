@@ -1,5 +1,5 @@
 import "./Home.css";
-import selfie from "../../Assets/selfie.jpg";
+import selfie from "../../Assets/selfie2.jpg";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
@@ -12,7 +12,7 @@ function Home() {
         <Row>
           <Col className="home-contact-col">
             <p>Julio A Placeres</p>
-            <p>Software Engineer</p>
+            <p>Owner & CEO</p>
             <p>Orlando, Florida</p>
             <p>Mobile: (315) 878-4223</p>
             <p>Email: jplaceresvaldes@outlook.com</p>
@@ -23,7 +23,9 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <h1 className="home-about-title"><span className="blue">ABOUT </span>ME</h1>
+            <h1 className="home-about-title">
+              <span className="blue">ABOUT </span>ME
+            </h1>
             <p>
               Software Engineer, self-taught, entrepreneur, always striving to
               work towards continuous improvement. Initially a QA in the
