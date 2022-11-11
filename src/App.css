@@ -10,10 +10,14 @@
       rgba(0, 0, 0, 0.678),
       rgba(0, 0, 0, 0.863)
     );
-  
-    --text-color: #0f17ff;
 
-    --backgr: linear-gradient(red, orange, yellow, blue);
+    --navbar-decoloration: linear-gradient(
+      to bottom left,
+      rgba(0, 0, 169, 0.678),
+      rgba(0, 0, 0, 0.863)
+    );
+
+    --text-color: #0f17ff;
   }
   
   .blue {
