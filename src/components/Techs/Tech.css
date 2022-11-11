@@ -1,0 +1,25 @@
+.tech-icons-col {
+  text-align: center;
+  box-shadow: 4px 5px 4px 3px rgba(28, 47, 218, 0.521);
+  font-size: 0.9rem;
+  min-width: 10vw;
+  min-height: 10vw;
+  margin: 10px;
+  padding: 5px;
+  border: 1.7px solid var(--text-color);
+  color: white;
+  }
+
+  .tech-icons{
+    font-size: 3rem;
+  }
+
+    /* Sizing up */
+@media only screen and (min-width: 576px) {
+  .tech-icons-col {
+    font-size: 1.3rem;
+  }
+  .tech-icons{
+    font-size: 3rem;
+  }
+}

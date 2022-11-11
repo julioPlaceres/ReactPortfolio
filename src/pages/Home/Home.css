@@ -1,0 +1,69 @@
+.home {
+    font-size: 1rem;
+    color: whitesmoke;
+  }
+
+  .home-contact-col{
+    margin-top: 25px;
+    line-height: 0.5em;
+  }
+  
+  .home-ul-social{
+    list-style: none;
+    display: flex;
+  }
+
+  .home-ul-social li{
+    padding-right: 20px;
+  }
+
+  .home-social-icons {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    background: rgba(255, 255, 255, 0.972);
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  
+  .home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: blue;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  
+  .home-social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px blue;
+  }
+
+  .home-social-icons:hover {
+    color: blue;
+    box-shadow: 0 0 5px blue;
+    text-shadow: 0 0 2px blue;
+  }
+
+  /* Sizing up */
+@media only screen and (min-width: 768px) {
+  .home {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .home-contact-col{
+    line-height: 1rem;
+    margin-bottom: 100px;
+  }
+}

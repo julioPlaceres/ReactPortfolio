@@ -1,0 +1,17 @@
+.project-section-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--background-color);
+  }
+
+  .project-section-h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    justify-content: center;
+  }
+
+  .project-section-col {
+    padding: 25px;
+    padding-bottom: 50px;
+  }

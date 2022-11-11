@@ -1,0 +1,101 @@
+#header{
+  height: 100px;
+}
+
+.stick {
+    background-color: transparent;
+    transition: all 0.3s ease-out 0s;
+    backdrop-filter: blur(15px);
+  }
+
+  .navbar {
+    position: sticky;
+    transition: all 0.3s ease-out 0s;
+    padding: 0.3rem 2rem;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 767px) {
+    .navbar {
+      padding: 0.3rem 2rem;
+      font-size: 1rem;
+      background-color: transparent;
+    }
+  }
+
+  .navbar-toggler {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .navbar-toggler span {
+    display: block;
+    background-color: var(--text-color);
+    height: 4px;
+    width: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: 0;
+  }
+
+  .navbar-toggler span:nth-child(1),
+  .navbar-toggler span:nth-child(3) {
+    transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+  }
+
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    transform: rotate(135deg);
+    opacity: 0.9;
+  }
+
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    transform: rotate(-135deg);
+    opacity: 0.9;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .navbar-nav .nav-item a::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 0;
+    border-radius: 16px;
+    background: #1d96ce;
+    bottom: 1px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .navbar-nav .nav-item a:hover::after {
+    width: 100%;
+  }
+
+  .navbar h1{
+    color: white;
+  }

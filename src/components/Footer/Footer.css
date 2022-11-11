@@ -1,0 +1,24 @@
+#footer{
+  height: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+}
+
+  .footer-container h3 {
+    font-size: 1em;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-icons {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0;
+    list-style: none;
+  }

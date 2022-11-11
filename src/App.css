@@ -1,3 +1,21 @@
-.MainApp {
-  text-align: center;
-}
+:root{
+    --background-color: linear-gradient(
+      to bottom left,
+      rgba(6, 6, 7, 0.582),
+      rgba(0, 0, 0, 0.904)
+    );
+  
+    --image-decoloration: linear-gradient(
+      to bottom left,
+      rgba(0, 0, 0, 0.678),
+      rgba(0, 0, 0, 0.863)
+    );
+  
+    --text-color: #0f17ff;
+
+    --backgr: linear-gradient(red, orange, yellow, blue);
+  }
+  
+  .blue {
+    color: var(--text-color);
+  }

@@ -1,51 +1,26 @@
-// Require Files
-import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./style.css";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Resume from "./pages/Resume/Resume";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import ScrollToTop from "./components/ScrollToTop";
-
-// Require Components
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import Resume from "./components/Resume/Resume";
-
-// Bootstrap import
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-  
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-    
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <Router>
-      <Preloader load={load} />
-      <div className="MainApp" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        {/* Switch for all different routes on the page */}
-        <Switch>
-          <Route path="/ReactPortfolio" exact component={Home} />
-          <Route path="/ReactPortfolio/project" component={Projects} />
-          <Route path="/ReactPortfolio/about" component={About} />
-          <Route path="/ReactPortfolio/resume" component={Resume} />
-        </Switch>
-        <Footer />
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="project" element={<Projects />} />
+        <Route path="about" element={<About />} />
+        <Route path="resume" element={<Resume />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }
 
-// Export App Module
 export default App;
