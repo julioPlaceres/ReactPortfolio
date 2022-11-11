@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8dc8fc2.css",
+    "main.js": "/static/js/main.95d70c7f.js",
+    "static/media/about-img.jpg": "/static/media/about-img.cc715090f53331808473.jpg",
+    "static/media/selfie2.jpg": "/static/media/selfie2.9de0e17b829db42c42db.jpg",
+    "static/media/agservices.png": "/static/media/agservices.9e576b19048963dbf4ad.png",
+    "static/media/tasty-bytes.png": "/static/media/tasty-bytes.b5123437b6f517525ba1.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.b5fffa116e002c42f256.png",
+    "static/media/PurchasingDashboard.PNG": "/static/media/PurchasingDashboard.b72eb3f4dc9f0ac7c56c.PNG",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.6bf4e9481ab30a96a4b2.png",
+    "static/media/Placeres_Resume.pdf": "/static/media/Placeres_Resume.a5064ba33a07b4d3b0b6.pdf",
+    "static/media/WireMachine.PNG": "/static/media/WireMachine.cd64f597500fbab83955.PNG",
+    "static/media/ActivityTracker.PNG": "/static/media/ActivityTracker.be68090d80058757a0ac.PNG",
+    "static/media/MaterialHandler.png": "/static/media/MaterialHandler.9b93b6e5b8abd8095f91.png",
+    "index.html": "/index.html",
+    "main.c8dc8fc2.css.map": "/static/css/main.c8dc8fc2.css.map",
+    "main.95d70c7f.js.map": "/static/js/main.95d70c7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8dc8fc2.css",
+    "static/js/main.95d70c7f.js"
+  ]
+}
