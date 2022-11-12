@@ -50,25 +50,37 @@ function NavBar() {
         <Navbar.Collapse>
           <Nav defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link href="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="/ReactPortfolio/"
+                onClick={() => updateExpanded(false)}
+              >
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/about" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="/ReactPortfolio/about"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/project" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="/ReactPortfolio/project"
+                onClick={() => updateExpanded(false)}
+              >
                 <VscProject style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/resume" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href="/ReactPortfolio/resume"
+                onClick={() => updateExpanded(false)}
+              >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
