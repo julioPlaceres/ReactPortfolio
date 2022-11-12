@@ -48,12 +48,9 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse>
-          <Nav>
+          <Nav className="navbar-collapse-background">
             <Nav.Item>
-              <Nav.Link
-                href="/ReactPortfolio"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/" onClick={() => updateExpanded(false)}>
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
