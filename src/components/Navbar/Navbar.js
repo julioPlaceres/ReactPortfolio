@@ -48,7 +48,7 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse>
-          <Nav className="navbar-collapse-background">
+          <Nav>
             <Nav.Item>
               <Nav.Link href="/" onClick={() => updateExpanded(false)}>
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home

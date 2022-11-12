@@ -15,10 +15,6 @@
   font-size: 1.2rem;
 }
 
-.navbar-collapse-background{
-  background: linear-gradient(rgba(0, 0, 0, 0.799), rgba(0, 0, 255, 0.822));
-}
-
 @media (max-width: 767px) {
   .navbar {
     padding: 0.3rem 2rem;
