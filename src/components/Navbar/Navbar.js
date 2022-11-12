@@ -31,7 +31,7 @@ function NavBar() {
       className={navColour ? "stick" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/ReactPortfolio">
+        <Navbar.Brand href="/">
           <h1>
             Wel<strong className="blue">come</strong>
           </h1>
@@ -59,28 +59,19 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/ReactPortfolio/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/ReactPortfolio/project"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/project" onClick={() => updateExpanded(false)}>
                 <VscProject style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="/ReactPortfolio/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="/resume" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
