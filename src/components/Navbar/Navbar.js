@@ -31,7 +31,7 @@ function NavBar() {
       className={navColour ? "stick" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/ReactPortfolio">
           <h1>
             Wel<strong className="blue">come</strong>
           </h1>
@@ -48,10 +48,10 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse>
-          <Nav defaultActiveKey="#home">
+          <Nav defaultActiveKey="/ReactPortfolio">
             <Nav.Item>
               <Nav.Link
-                href="/ReactPortfolio/"
+                href="/ReactPortfolio"
                 onClick={() => updateExpanded(false)}
               >
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
