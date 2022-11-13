@@ -3,6 +3,7 @@
   "version": "1.6.0",
   "private": true,
   "main": "index.js",
+  "homepage": "https://placeres-portfolio.herokuapp.com",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "react": "^17.0.2",
