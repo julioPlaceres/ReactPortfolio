@@ -49,7 +49,7 @@ function NavBar() {
 
         <Navbar.Collapse>
           <Nav>
-            <Nav.Item>
+            <Nav.Item className="">
               <Nav.Link href="/" onClick={() => updateExpanded(false)}>
                 <BiHomeAlt style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
